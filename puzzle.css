@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px auto;
+  width: 320px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#winner {
+  font-size: 24px;
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#totalTurns {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#startButton,
+#restartButton {
+  margin: 20px auto;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: white;
+}

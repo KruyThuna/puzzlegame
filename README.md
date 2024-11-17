@@ -1,2 +1,1 @@
-# puzzlegame
-game puzzle
+# slidingnumberpuzzlegame
